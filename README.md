@@ -1,24 +1,37 @@
-# MVP - Predição do Hábito de Fumar
+# MVP - Machine Learning & Analytics
 
-Projeto desenvolvido para a disciplina de Machine Learning da Pós-Graduação em Ciência de Dados e Analytics.
+Projeto desenvolvido como parte da disciplina de **Machine Learning** da Pós-Graduação em **Ciência de Dados e Analytics**.
 
 ## Objetivo
 
-Construir modelos capazes de prever se um indivíduo é fumante ou não fumante a partir de exames clínicos e informações demográficas.
+Desenvolver e comparar modelos de Machine Learning capazes de classificar indivíduos como **fumantes** ou **não fumantes**, utilizando informações demográficas e exames clínicos.
+
+## Dataset
+
+- **Fonte:** Kaggle
+- **Problema:** Classificação supervisionada
+- **Variável-alvo:** `smoking`
 
 ## Modelos Avaliados
 
 - Dummy Classifier (Baseline)
 - Logistic Regression
-- KNN
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
 - Random Forest
-- SVM
 - XGBoost
 
 ## Melhor Modelo
 
-Random Forest
+Após a comparação entre os modelos, o **Random Forest** apresentou o melhor desempenho.
 
-Accuracy: 82,9%
+| Métrica | Resultado |
+|---------|----------:|
+| Accuracy | **82,94%** |
+| Precision | **75,8%** |
+| Recall | **78,4%** |
+| F1-Score | **77,1%** |
+| ROC-AUC | **0,913** |
 
-ROC-AUC: 0,913
+---
+**Autora:** Vanessa Araújo
